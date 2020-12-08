@@ -4,7 +4,7 @@
     if(array_key_exists("login",$_SESSION) and $_SESSION["login"])
     {
         $string='<li class="nav-item">
-                            <a class="nav-link" href="login.php?logout=1">Log Out</a>
+                            <a class="nav-link" href="login.php?logout=1">Logg Out</a>
                         </li>';
         
     }
